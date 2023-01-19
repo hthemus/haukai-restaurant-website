@@ -1,0 +1,227 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgb(100, 100, 100);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(204, 204, 204);
+  z-index: 100;
+}
+
+body {
+  background-color: rgb(100, 100, 100);
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-family: Roboto, Arial;
+  Font-size: 16px;
+  font-weight: 500;
+  color: white;
+  padding-left: 10px;
+}
+
+.menu-list {
+  display: flex;
+  flex: 4;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  color: white;
+  font-family: Roboto, Arial;
+  Font-size: 14px;
+  font-weight: 500;
+  padding-right: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu:link, .menu:visited {
+  color: white;
+  font-family: Roboto, Arial;
+  Font-size: 14px;
+  font-weight: 500;
+}
+
+.menu:hover, .menu:active {
+  color: white;
+  font-family: Roboto, Arial;
+  Font-size: 14px;
+  font-weight: 500;
+}
+
+.home-container {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+ }
+
+.text-box {
+  padding-top: 20px;
+  position: absolute;
+  font-family: Roboto, Arial;
+  Font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  }
+  
+.contact-container {
+  display: grid;
+  position: relative;
+  text-align: center;
+}
+
+.hours-container {
+  display: grid;
+  position: relative;
+  text-align: center;
+}
+
+.res-container {
+  display: grid;
+  position: relative;
+  text-align: center;  
+}
+
+.res-text-box {
+  position: relative;
+  font-family: Roboto, Arial;
+  Font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.table-booking-form {
+  width: 100%;
+  height: 1000px;
+  border: 0;
+}
+
+.contact-text-box {
+  position: relative;
+  font-family: Roboto, Arial;
+  Font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.hours-text-box {
+  position: relative;
+  font-family: Roboto, Arial;
+  Font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.hours-apps {
+  position: relative;
+}
+
+.contact-text {
+  padding-top: 60px;
+  position: relative;
+  font-family: Roboto, Arial;
+  Font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.contact-map {
+  width: 100%;
+  height: 500px;
+  border: 0;
+}
+
+.contact-form {
+  width: 100%;
+  height: 1000px;
+  border: 0;
+}
+
+.hours-app {
+  border: 0;
+  width: 100%;
+  height: 750px;
+}
+
+.container {
+  padding: 2em;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  font-family: Roboto, Arial;
+  Font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.menu-items {
+  padding: 2em;
+  border-radius: 1px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}
+.menu-items:focus {
+  background-color: rgb(80, 80, 80);
+}
+
+.drinks {
+  Font-size: 16px;
+  font-weight: 400;
+}
+
+span {
+  font-size: 12px;
+}
+
+.menu-items > img {
+  width: 100%;
+  height: 100%;
+}
+
+.drinks > img {
+  width: 100%;
+  height: 100%;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.drink-price {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
